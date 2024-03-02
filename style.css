@@ -1,0 +1,108 @@
+
+/* Work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+
+/* Shared styles */
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/* ----------------nav styles start----------- */
+
+.header-section{
+    margin-bottom: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.nav-icons{
+    display: flex;
+}
+
+.nav-icons h3{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* ----------------nav styles end ----------- */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.explore-banner{
+    position: relative;
+  text-align: center;
+  color: #FFF;
+  
+}
+.explore-banner img{
+    width: 100%;
+}
+.explore-banner-content{
+    position: absolute;
+    top: 10%;
+    left: 18%;
+}
+
+.explore-banner-content h1{
+        font-size: 3.8rem;
+        font-weight: 700;
+}
+
+.explore-banner-info{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    
+}
+
+.input-btn{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    background-color: white;
+    padding: 20px 20px;
+    border: 0;
+}
+.btn{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    background-color: #FF5400;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
+}
