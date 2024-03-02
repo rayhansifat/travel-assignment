@@ -64,8 +64,9 @@ main{
 
 .explore-banner{
     position: relative;
-  text-align: center;
-  color: #FFF;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 100px;
   
 }
 .explore-banner img{
@@ -103,6 +104,37 @@ main{
     font-size: 1rem;
     background-color: #FF5400;
     padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
+}
+
+
+
+
+
+.popular-tours-banner{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.popular-tours-banner-heading{
+        font-size: 3rem;
+        font-weight: 700;
+}
+
+.popular-tours-banner-content{
+    font-size: 1.2rem;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.popular-tours-banner-btn{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #FF5400;
+    padding: 20px 40px;
     cursor: pointer;
     border: 0;
 }
