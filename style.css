@@ -138,3 +138,157 @@ main{
     cursor: pointer;
     border: 0;
 }
+
+
+
+
+/* ------------ */
+/* 
+.destination-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destination-all-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.destination-all-images img{
+    width: 100%;
+}
+.destination-all-imag{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 20px;
+     
+}
+.destination-all-imag img{
+    width: 100%;
+    height: 95%;
+       
+}
+.destination-all-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.destination-all-image img{
+    width: 100%;
+    height: 90%;
+     
+} */
+
+/* -------------- */
+
+/* .destination-image-section{
+    position: relative;
+} */
+
+.destination-image-section{
+    margin-bottom: 100px;
+    
+}
+.destination-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destination-all-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+.destination-all-images img{
+    width: 100%;
+}
+#maldives{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+#indonesia{
+    position: absolute;
+    top: 37%;
+    left: 73%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.destination-all-imag{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    position: relative;
+    margin-bottom: 20px;  
+}
+
+.destination-all-imag img{
+    width: 100%;
+    height: 100%;
+}
+
+#srilanka{
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#america{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#kashmir{
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.destination-all-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.destination-all-image img{
+    width: 100%;
+    height: 90%;
+}
+
+#bangladesh{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#bandarban{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
