@@ -417,3 +417,95 @@ main{
     text-align: center;
     margin-bottom: 100px;
 }
+
+
+
+/* ---- */
+
+.simple-perfect-banner{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.simple-perfect-banner-content h2{
+    font-size: 2rem;
+}
+.simple-perfect-banner-content p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.simple-perfect-banner-content ul{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+
+/* ------------ */
+.newsletter-banner{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.newsletter-banner-card{
+    
+    top: 20%;
+    left:4%;
+    border-radius: 8px;
+    border: 2px solid orangered;
+    background-color: white;
+    padding: 40px 30px;
+    width: 50%;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.input-field{
+    width: 80%;
+    padding: 22px 20px;
+    margin: 8px 0 30px;
+    border: 0;
+    background: #d7dbda;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#subscribe-btn{
+    width: 80%;
+}
+
+
+/* ----------------- */
+
+
+.footer{
+    border-radius: 8px;
+    background-color: #d7dbda;
+    border: 0;
+    text-align: center;
+    padding: 40px 30px;
+  
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.footer p{
+    margin-bottom: 40px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+hr{
+    width: 80%;
+    color: white;
+    margin-bottom: 40px;
+}
