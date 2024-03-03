@@ -56,12 +56,14 @@ nav li a{
 
 /* ----------------nav styles end ----------- */
 
+
+/* ----------------Main styles start----------- */
 main{
     max-width: 1440px;
     margin: 0 auto;
 }
 
-
+/* ---------------Explore Your Travel Banner Styles Start------------------ */
 .explore-banner{
     position: relative;
     text-align: center;
@@ -109,9 +111,9 @@ main{
 }
 
 
+/* ---------------Explore Your Travel Banner Styles End------------------ */
 
-
-
+/* ---------------Popular Tours Banner Styles Start------------------ */
 .popular-tours-banner{
     display: flex;
     margin-bottom: 100px;
@@ -138,12 +140,10 @@ main{
     cursor: pointer;
     border: 0;
 }
+/* ---------------Popular Tours Banner Styles End------------------ */
 
 
-
-
-/* ------------ */
-
+/* ---------------Choose Your Destination Banner Styles Start------------------ */
 
 .destination-image-section{
     margin-bottom: 100px;
@@ -256,7 +256,10 @@ main{
     font-size: 1.5rem;
     font-weight: 600;
 }
-/* --------------------- */
+/* ---------------Destination Banner Styles End------------------ */
+
+
+/* --------------Why Choose Us Style Starts----------------------- */
 .choose-section{
     margin-bottom: 100px;
 }
@@ -301,15 +304,10 @@ main{
     text-align: center;
    
 }
+/* --------------Why Choose Us Style End----------------------- */
 
 
-
-
-
-
-
-/* ----------------- */
-
+/* --------------Deal & Discounts Style Starts----------------------- */
 .discount-banner-content{
     text-align: center;
     margin-bottom: 40px;
@@ -375,11 +373,12 @@ main{
     text-align: center;
     margin-bottom: 100px;
 }
+/* --------------Deal & Discounts Style End----------------------- */
 
 
 
-/* ---- */
 
+/* ---------------Simple Perfect Place  Banner Styles Start------------------ */
 .simple-perfect-banner{
     display: flex;
     margin-bottom: 100px;
@@ -397,9 +396,10 @@ main{
     margin-bottom: 30px;
 }
 
+/* ---------------Simple Perfect Place  Banner Styles End------------------ */
 
 
-/* ------------ */
+/* ---------------Newsletter  Banner Styles Start------------------ */
 .newsletter-banner{
     display: flex;
     gap: 20px;
@@ -434,10 +434,10 @@ main{
     width: 80%;
 }
 
+/* ---------------Newsletter  Banner Styles End------------------ */
 
-/* ----------------- */
 
-
+/* ---------------Footer Styles Start------------------ */
 .footer{
     border-radius: 8px;
     background-color: #d7dbda;
@@ -468,8 +468,13 @@ hr{
     margin-bottom: 40px;
 }
 
+/* ---------------Footer Styles End------------------ */
 
 
+
+/*-------------------------------------------------------------------------
+----------------------------- Mobile Device Start --------------------------------
+---------------------------------------------------------------------------- */
 
 @media screen and (max-width: 600px){
 
@@ -670,4 +675,7 @@ hr{
     }
 }
 
+/*-------------------------------------------------------------------------
+----------------------------- Mobile Device End --------------------------------
+---------------------------------------------------------------------------- */
 
