@@ -475,6 +475,7 @@ hr{
 /*-------------------------------------------------------------------------
 ----------------------------- Mobile Device Start --------------------------------
 ---------------------------------------------------------------------------- */
+/* ------------------------Dimensions iphone XR 414 x 896-------------------- */
 
 @media screen and (max-width: 600px){
 
@@ -489,25 +490,29 @@ hr{
     .popular-tours-banner img,.destination-all-images, .destination-all-imag, .destination-all-image,.discount-banner-img-content,.input-field,#subscribe-btn{
         width: 100%;
     }
+    nav ul{
+        flex-direction: column;
+        gap: 30px;
+    }
     .popular-tours-banner-heading{
         font-size: 2.5rem;
     }
-    .explore-banner img, .discount-banner-img-content{
+    .discount-banner-img-content{
         width: 100%;
         height: 100%;
     }
     
     .explore-banner-content{
         position: absolute;
-        top: 0.1%;
-        left: 2%;
+        top: 0.0%;
+        left: 1%;
     }
     
     .explore-banner-info{
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 32%;
+        top: 31.5%;
         left: 40%;
         
     }
@@ -515,27 +520,28 @@ hr{
     .input-btn{
         border-radius: 4px;
         color: #FFF;
-        font-size: .3rem;
+        font-size: .4rem;
         background-color: white;
-        padding: 10px 12px;
+        padding: 9px 9px;
         border: 0;
         margin-bottom: 1px;
     }
     .btn{
-        border-radius: 8px;
+        border-radius: 4px;
         color: #FFF;
-        font-size: .7rem;
+        font-size: .9rem;
         background-color: #FF5400;
-        padding: 10px 10px;
+        padding: 7px 7px;
         cursor: pointer;
         border: 0;
     }
     .explore-banner-content h1{
-        font-size: .7rem; 
+        font-size: .8rem; 
         margin-bottom: 0;   
     }
     .explore-banner-content p{
-        font-size: .6rem;
+       
+        font-size: .5rem;
         margin-bottom: 0;
     }
     #service-card{
@@ -640,14 +646,14 @@ hr{
     /* --------- */
     .discount-banner-card, .discount-banner-middle-card{
         position: absolute;
-        top: 2%;
+        top: 1.2%;
         left:15%;
         border-radius: 8px;
         border: 0;
         background-color: #FFFFFF;
         padding: 5px 5px;
         width: 70%;
-        height: 87%;
+        height: 89%;
        
     }
     .discount-banner-card h3, .discount-banner-middle-card h3{
