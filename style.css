@@ -477,18 +477,70 @@ hr{
     .discount-banner-middle-card,.simple-perfect-banner,.newsletter-banner,.footer{
         flex-direction: column;
     }
-
+    
     .destination-all-images, .destination-all-imag, .destination-all-image{
         grid-template-columns: 1fr;
     }
-    .destination-all-images, .destination-all-imag, .destination-all-image{
+    .popular-tours-banner img,.destination-all-images, .destination-all-imag, .destination-all-image,.discount-banner-img-content,.input-field,#subscribe-btn{
         width: 100%;
+    }
+    .popular-tours-banner-heading{
+        font-size: 2.5rem;
+    }
+    .explore-banner img, .discount-banner-img-content{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .explore-banner-content{
+        position: absolute;
+        top: 0.1%;
+        left: 2%;
+    }
+    
+    .explore-banner-info{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 32%;
+        left: 40%;
+        
+    }
+    
+    .input-btn{
+        border-radius: 4px;
+        color: #FFF;
+        font-size: .3rem;
+        background-color: white;
+        padding: 10px 12px;
+        border: 0;
+        margin-bottom: 1px;
+    }
+    .btn{
+        border-radius: 8px;
+        color: #FFF;
+        font-size: .7rem;
+        background-color: #FF5400;
+        padding: 10px 10px;
+        cursor: pointer;
+        border: 0;
+    }
+    .explore-banner-content h1{
+        font-size: .7rem; 
+        margin-bottom: 0;   
+    }
+    .explore-banner-content p{
+        font-size: .6rem;
+        margin-bottom: 0;
     }
     #service-card{
         flex-direction: column;
     }
-    .newsletter-banner{
+    .newsletter-banner, .input{
         align-items: center
+    }
+    .newsletter-banner-card{
+        text-align: center;
     }
     .popular-tours-banner-btn{
         text-align: center;
@@ -497,7 +549,125 @@ hr{
         width: 100%;
     }
 
-    .popular-tours-banner-btn,.simple-perfect-banner-content{
+    .popular-tours-banner-btn,.simple-perfect-banner-content,.newsletter-banner-card{
         margin-bottom: 30px;
     }
+
+
+    /* ---------------------- */
+    
+
+    #maldives{
+        position: absolute;
+        top: 15%;
+        left: 38%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    
+    }
+    
+    #indonesia{
+        position: absolute;
+        top: 65%;
+        left: 38%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+   
+    
+    #srilanka{
+        position: absolute;
+        top: 11%;
+        left: 38%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #america{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    #kashmir{
+        position: absolute;
+        top: 75%;
+        right: 35%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+   
+    
+    #bangladesh{
+        position: absolute;
+        top: 58%;
+        left: 35%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #bandarban{
+        position: absolute;
+        top: 8%;
+        right: 35%;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    /* ------ */
+
+    .choose-card-section{
+        display: flex;
+    }
+    .guarantee-card{
+        left:0%; 
+        width: 86%;  
+    }
+
+    /* --------- */
+    .discount-banner-card, .discount-banner-middle-card{
+        position: absolute;
+        top: 2%;
+        left:15%;
+        border-radius: 8px;
+        border: 0;
+        background-color: #FFFFFF;
+        padding: 5px 5px;
+        width: 70%;
+        height: 87%;
+       
+    }
+    .discount-banner-card h3, .discount-banner-middle-card h3{
+        font-size: 0.5rem;
+       
+    }
+    .discount-banner-card h4, .discount-banner-middle-card h4{
+        font-size: 0.5rem;
+    }
+    .discount-banner-card p, .discount-banner-middle-card p{
+        font-size: .5rem;
+    }
+    .discount-banner-schedule h5{
+        font-size: 0.6rem;
+    }
+    
+    .simple-perfect-banner-content .btn,#subscribe-btn{
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 1.5rem;
+        background-color: #FF5400;
+        padding: 15px 15px;
+        cursor: pointer;
+        border: 0;
+    }
 }
+
+
